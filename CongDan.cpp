@@ -31,7 +31,7 @@ public:
 			<< "Ngay sinh: " << this->ngaySinh.getNgay() << "/" << this->ngaySinh.getThang() << "/" << this->ngaySinh.getNam() << "\n"
 			<< "CCCD: " << this->cccd << "\n"
 			<< "SDT: " << this->sdt << "\n"
-			<< "----------------\n";
+			<< "-----------Hung---------\n";
 	}
 	Date getNgaySinh() const { return ngaySinh; }
 	string getCccd() const { return cccd; }
